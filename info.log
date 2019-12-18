@@ -18,3 +18,8 @@
 {"message":"Bookmark with id 2 deleted.","level":"info"}
 {"message":"Bookmark with id 5715b8ca-d583-4935-9df1-68d5471cbfe5 created","level":"info"}
 {"message":"Bookmark with id 5715b8ca-d583-4935-9df1-68d5471cbfe5 deleted.","level":"info"}
+{"message":"Bookmark with id 710ddeba-fca3-4ef1-82ca-9138fa2faf45 created","level":"info"}
+{"message":"Bookmark with id 710ddeba-fca3-4ef1-82ca-9138fa2faf45 deleted.","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks/","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/","level":"error"}
+{"message":"Title is required","level":"error"}
