@@ -4,17 +4,11 @@ const morgan = require('morgan')
 const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
-/* const validateBearerToken = require('./validate-bearer-token') */
+const validateBearerToken = require('./validate-bearer-token')
 const errorHandler = require('./error-handler')
 const bookmarksRouter = require('./bookmarks/bookmarks-router')
-const BookmarksService = require('./bookmarks/bookmarks-service')
-const knex = require('knex')
 
 const app = express()
-const knexInstance = knex({
-  client: 'pg',
-  connection: process.env.DB_URL 
-})
 
 app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
   skip: () => NODE_ENV === 'test'
@@ -23,16 +17,12 @@ app.use(cors())
 app.use(helmet())
 /* app.use(validateBearerToken) */
 
-app.use(bookmarksRouter)
+app.use('/api/bookmarks', bookmarksRouter)
 
 app.get('/', (req, res) => {
   res.send('Hello, world!')
 })
 
 app.use(errorHandler)
-/*  BookmarksService.insertBookmark(knexInstance, {
-   title: "NEW",
-   url: "https://google.com",
-   rating: 3
- }) */
+
 module.exports = app

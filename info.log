@@ -1,32 +1,29 @@
-{"message":"Unauthorized request to path: /","level":"error"}
-{"message":"Unauthorized request to path: /","level":"error"}
-{"message":"Unauthorized request to path: /","level":"error"}
-{"message":"Unauthorized request to path: /","level":"error"}
-{"message":"Unauthorized request to path: /","level":"error"}
-{"message":"Unauthorized request to path: /","level":"error"}
-{"message":"title is required","level":"error"}
-{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, $2, $3) returning * - doppelter Schlüsselwert verletzt Unique-Constraint »bookmarks_pkey«","level":"error"}
-{"message":"Bookmark with id 2 deleted.","level":"info"}
-{"message":"Bookmark with id 123 not found.","level":"error"}
-{"message":"Bookmark with id 123 not found.","level":"error"}
-{"message":"Bookmark with id 2 deleted.","level":"info"}
-{"message":"title is required","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks/","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks/","level":"error"}
+{"message":"select * from \"bookmarks\" - Relation »bookmarks« existiert nicht","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - Relation »bookmarks« existiert nicht","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - Relation »bookmarks« existiert nicht","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - Relation »bookmarks« existiert nicht","level":"error"}
+{"message":"select * from \"bookmarks\" - Relation »bookmarks« existiert nicht","level":"error"}
 {"message":"url is required","level":"error"}
-{"message":"rating is required","level":"error"}
-{"message":"Invalid rating 'invalid' supplied","level":"error"}
-{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
-{"message":"Bookmark with id 1 created.","level":"info"}
-{"message":"Bookmark with id 1 created.","level":"info"}
-{"message":"title is required","level":"error"}
-{"message":"title is required","level":"error"}
-{"message":"title is required","level":"error"}
-{"message":"title is required","level":"error"}
-{"message":"Invalid rating 'undefined' supplied","level":"error"}
-{"message":"Invalid rating 'undefined' supplied","level":"error"}
-{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - NULL-Wert in Spalte »title« verletzt Not-Null-Constraint","level":"error"}
-{"message":"Bookmark with id 5 deleted.","level":"info"}
-{"message":"title is required","level":"error"}
-{"message":"Bookmark with id 7 created.","level":"info"}
-{"message":"Bookmark with id 8 created.","level":"info"}
-{"message":"Unexpected string in JSON at position 75","level":"error"}
-{"message":"Bookmark with id 9 created.","level":"info"}
+{"message":"select * from \"bookmarks\" - Relation »bookmarks« existiert nicht","level":"error"}
+{"message":"select * from \"bookmarks\" - Relation »bookmarks« existiert nicht","level":"error"}
+{"message":"Bookmark with id 10 created.","level":"info"}
+{"message":"Bookmark with id 10 deleted.","level":"info"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 10 not found.","level":"error"}
+{"message":"Bookmark with id 11 created.","level":"info"}
+{"message":"Bookmark with id 11 deleted.","level":"info"}
+{"message":"Bookmark with id 9 deleted.","level":"info"}
